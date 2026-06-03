@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 if not BOT_TOKEN:
-    logger.error("8302059415:AAGjbyUB8RVQs-wbPLBvQuGbZfqj5yLP0UQ")
+    logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
     sys.exit(1)
 
 REQUIRED_CHANNELS = ["@freefirelike21"]
